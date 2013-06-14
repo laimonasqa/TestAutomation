@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="REGRESSION TESTS" parallel="tests" verbose="1" thread-count="3">
+	<test name="Tests in FIREFOX" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+	</test>
+	<test name="Tests in CHROME" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+	</test>
+</suite>
